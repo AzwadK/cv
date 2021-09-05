@@ -1,14 +1,17 @@
-
+/************Txt Colour**********/
 :root{
 
-  --c: #FCD307;
+  --c: #B4AEE8;
 
 
 
 }
 
+/************************************/
+img:hover {
+  background-color: red;
 
-
+}
 
 
 body {
@@ -24,19 +27,27 @@ hr {
 }
 
 h1 {
-  color:var(--c);
+  color: #FECD1A;
 }
 
-h2 {
-  color:var(--c);
+h2{
+  color: #D7385E;
+
 }
 
 h3 {
   color:var(--c);
 }
 
+h4{
+  color:var(--c);
+
+}
+
+
 a {
   color:var(--c);
+  border-width: 5%;
 }
 
 p {
@@ -53,4 +64,32 @@ color:var(--c);
 label{
 
   color:var(--c);
+}
+a:hover{
+
+  background-color: red;
+}
+
+h1:hover{
+
+  background-color: #EE8572;
+}
+
+
+
+/*****************Class's*******************/
+
+.circular {
+    border-radius: 100%;
+}
+
+.Werk{
+  color: #66BFBF;
+
+}
+
+.cnt{
+
+color: #00B7C2
+
 }
