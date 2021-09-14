@@ -1,95 +1,163 @@
-/************Txt Colour**********/
-:root{
-
-  --c: #B4AEE8;
-
-
-
-}
-
-/************************************/
-img:hover {
-  background-color: red;
+/*******************DIVS*********************/
+.Upper {
+  background-image: url(../Images/cool2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
 
 }
 
+.middle-container {
 
-body {
-  background-color: #52057B;
+  background-color: #4D375D;
+
 }
 
-hr {
-  border-color: #F8EFD4;
-  border-width: 5px;
-  border-style: none;
-  border-top-style: dotted;
-  width: 2%
+.bottom-container {
+
+  background-color: #3B185F;
+  margin-bottom: 0;
+}
+.skills{
+
+  background-color: #FF4B5C;
+
+}
+.skill-row {
+
+
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.Contact_body{
+  background-color: #3B185F;
+  text-align: center;
+
+}
+
+.profile{
+  margin-top: 0;
+  background-color: #4D375D;
+
+}
+.filler{
+  background-color: #3B185F;
+  height: 20px;
+
+}
+
+/**********************************************/
+a{
+  color: #F1FA3C;
+}
+head {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  color: #FECD1A;
+  color: #29C7AC;
+  margin: 50px auto 0px auto;
+  font-size: 5.63rem;
+  font-family: 'Sacramento', cursive;
 }
 
-h2{
-  color: #D7385E;
+h2 {
+  color: #29C7AC;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
 
+.title_h2{
+
+  padding-bottom: 100px;
+  margin-bottom: 0;
 }
 
 h3 {
-  color:var(--c);
+  color: #88E1F2;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h4{
-  color:var(--c);
-
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-
-a {
-  color:var(--c);
-  border-width: 5%;
+hr {
+  border-color: #16C79A;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  margin-top: 0;
+  width: 4%
 }
 
 p {
-color:var(--c);
+  color: #F8EFD4;
+  font-size: 1em;
 }
+.p1{
 
-ol {
-color:var(--c);
-}
+  margin-bottom: 0;
 
-ul {
-color:var(--c);
-}
-label{
-
-  color:var(--c);
-}
-a:hover{
-
-  background-color: red;
-}
-
-h1:hover{
-
-  background-color: #EE8572;
 }
 
 
 
-/*****************Class's*******************/
-
-.circular {
-    border-radius: 100%;
+.My_pic {
+  border-radius: 100%;
 }
 
-.Werk{
-  color: #66BFBF;
-
+.C {
+  border-radius: 100%;
+  width: 10%;
+  padding-right: 20px;
 }
 
-.cnt{
 
-color: #00B7C2
+.java {
+  border-radius: 100%;
+  width: 10%;
+}
 
+.C{
+  width: 25%;
+float: left;
+
+}
+.java{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #152e94;
+  background-image: -webkit-linear-gradient(top, #152e94, #2980b9);
+  background-image: -moz-linear-gradient(top, #152e94, #2980b9);
+  background-image: -ms-linear-gradient(top, #152e94, #2980b9);
+  background-image: -o-linear-gradient(top, #152e94, #2980b9);
+  background-image: linear-gradient(to bottom, #152e94, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #76e336;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+br{
+  background-color: #4D375D;
+
+}
+.My_pic{
+  border-radius: 50%;
+  padding-top: 20px;
 }
