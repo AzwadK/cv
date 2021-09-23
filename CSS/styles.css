@@ -41,11 +41,19 @@
 .profile{
   margin-top: 0;
   background-color: #4D375D;
+  padding: 8% 16%;
 
 }
 .filler{
   background-color: #3B185F;
   height: 20px;
+
+}
+
+.contact-me{
+
+
+  padding: 6% 12%;
 
 }
 
@@ -109,21 +117,23 @@ p {
 
 }
 
-
+.carousel-item {
+  padding: 8% 16%;
+}
 
 .My_pic {
   border-radius: 100%;
 }
 
 .C {
-  border-radius: 100%;
+
   width: 10%;
   padding-right: 20px;
 }
 
 
 .java {
-  border-radius: 100%;
+
   width: 10%;
 }
 

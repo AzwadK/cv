@@ -4,10 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Azwad Zarif Khan</title>
+  <!--- BootStrap scripts --->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="icon" href="Images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/04da208ec7.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/04da208ec7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,23 +26,33 @@
       <h2>Hello.</h2>
       <p>My Name is Azwad Zarif Khan.I study computer science and engineering at <strong> <a class="cnt" href="https://www.uiu.ac.bd/">UIU</a></strong></p>
     </div>
-    <hr>
+
     <div class="skills">
       <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="C" src="Images\C_pic.gif" alt="c">
-        <h3>C programming: ⭐⭐⭐⭐⭐</h3>
-        <p>In 2018, I took Structured Programming Language (SPL) in my second semester where i got to learn the C programming language..</p>
-      </div>
-      <div class="skill-row">
-        <img class="java" src="Images\java.gif" alt="java">
-        <h3>Java: ⭐⭐⭐⭐</h3>
-        <p>In 2019, in my second year of University I took the course Objective Oriented Programming (OOP) where I learned the Java language.</p>
+      <div id="skills-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="C" src="Images\C_pic.gif" alt="c">
+            <h3>C programming: ⭐⭐⭐⭐⭐</h3>
+            <p>In 2018, I took Structured Programming Language (SPL) in my second semester where i got to learn the C programming language..</p>
+          </div>
+          <div class="carousel-item">
+            <img class="java" src="Images\java.gif" alt="java">
+            <h3>Java: ⭐⭐⭐⭐</h3>
+            <p>In 2019, in my second year of University I took the course Objective Oriented Programming (OOP) where I learned the Java language.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#skills-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#skills-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
     <br>
-    <br>
-    <hr>
     <br>
     <div class="contact-me">
       <h2>Get In Touch</h2>
@@ -48,7 +61,7 @@
       <a class="btn" href="Contact.html">CONTACT ME</a>
     </div>
   </div>
-  <div class="filler" >
+  <div class="filler">
 
   </div>
 
@@ -57,7 +70,7 @@
     <a class="footer-link" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
     <a class="footer-link" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
     <a class="footer-link" href="#"></a>
-    <p class="p1" >© 2021 Azwad Khan.</p>
+    <p class="p1">© 2021 Azwad Khan.</p>
   </div>
 
 </body>
